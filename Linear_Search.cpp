@@ -22,3 +22,4 @@ int main() {
     cout << "index, value: " << myarry(x, size, target) << ", " << x[myarry(x, size, target)];
   }
 }
+
