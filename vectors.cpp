@@ -27,6 +27,13 @@ void display2(){
 
     number.pop_back(); //DELECT LAST VALUE
 
+    cout << number.front() << endl; //FIRST VALUE
+    cout << number.back() << endl; //LAST VALUE
+    cout << number.size() << endl; //SIZE OF VECTOR
+    cout << number.capacity() << endl; //CAPACITY OF VECTOR
+    cout << number.empty() << endl; //CHECK IF VECTOR IS EMPTY OR NOT
+    cout << number.at(1) << endl; //VALUE AT INDEX 1
+
     for (int i = 0; i < number.size(); i++)
     {
         cout << number[i] << endl;
